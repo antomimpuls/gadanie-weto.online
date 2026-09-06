@@ -6,7 +6,7 @@
 <title>Гадание онлайн | Очищение и помощь</title>
 <meta name="description" content="🔮 Возврат любимого человека, очищение от негатива и порчи. Помощь в отношениях. Связь WhatsApp и Telegram. Работаю вдумчиво и довожу дело до результата.">
 <meta property="og:title" content="Гадание онлайн | Поддержка">
-<meta property="og:description" content="Анна Ивановна — целительница с 17-летним стажем. Возврат любимых, снятие негатива и защита семьи с поддержкой в мессенджерах.">
+<meta property="og:description" content="Римма — целительница с 17-летним стажем. Возврат любимых, снятие негатива и защита семьи с поддержкой в мессенджерах.">
 <meta property="og:image" content="https://raw.githubusercontent.com/antomimpuls/gadanie-weto.online/main/wEx4D154kC0.jpg>
 <link href="https://fonts.googleapis.com/css2?family=Forum&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>
@@ -28,7 +28,7 @@ const SITE_SETTINGS = {
   'responseTime': '5 минут',
   'metrikaMessengerVisible': false
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Римма';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const ENCODED_MESSAGE=encodeURIComponent(WHATSAPP_MESSAGE);
@@ -1243,7 +1243,7 @@ function replaceNamePlaceholders(name){
 }
 
 function setImagesAndTexts(){
-    const psychicName = SETTINGS.psychicName || 'Таисия Даниловна';
+    const psychicName = SETTINGS.psychicName || 'Римма';
     replaceNamePlaceholders(psychicName);
     const heroName = document.getElementById('heroName');
     if (heroName) {
